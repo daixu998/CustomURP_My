@@ -19,7 +19,7 @@
     <RootNamespace></RootNamespace>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.RenderPipelines.Universal.Runtime</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -28,11 +28,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_48;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_CLOUD_FEATURES;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_48;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_CLOUD_FEATURES;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ENABLE_VR_MODULE;ENABLE_XR_MODULE;USING_ANIMATION_MODULE;USING_PHYSICS2D_MODULE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoStandardLibraries>true</NoStandardLibraries>
@@ -62,13 +62,120 @@
     <Analyzer Include="C:\Users\Administrator.DESKTOP-7275T7I\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CustomRP\Runtime\CustomRenderPipeline.cs" />
-    <Compile Include="Assets\CustomRP\Runtime\CustomRenderPiineAsset.cs" />
-    <Compile Include="Assets\CustomRP\Runtime\CameraRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\ShadowUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\XR\XRLayout.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\DeferredPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\DepthOfField.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\CompositeShadowCaster2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\WhiteBalance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\DeferredLights.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Passes\PixelPerfectBackgroundPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Passes\IRenderPass2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\RendererFeatures\RenderObjects.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DPoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ForwardLights.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\DeferredShaderData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\SplitToning.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ColorLookup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\DrawSkyboxPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Renderer2DDataAuthoring.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Data\XRSystemData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\SampleCount.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\GBufferPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\CopyDepthPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Data\RenderStateData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ScriptableRendererData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\ScriptableRenderPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\SceneViewDrawMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\ShadowCaster2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\XR\XRPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ShadowUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\Tess.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\UniversalAdditionalCameraData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\Dict.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\FinalBlitPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Data\UniversalRenderPipelineAsset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\DepthOnlyPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ColorAdjustments.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\TileDepthRangePass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\ShadowCasterGroup2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ComponentUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\RenderObjectsPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ShadowsMidtonesHighlights.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\StencilUsage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\MotionBlur.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\Bloom.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ChromaticAberration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\LensDistortion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Renderer2DData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\ShadowRendering.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DAuthoring.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\Vignette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Data\UniversalRenderPipelineEditorResources.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Renderer2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\XR\XRSystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\Tonemapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ScriptableRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Passes\Utility\Light2DLookupTexture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\DeferredTiler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\UniversalRenderPipelineCore.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ChannelMixer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\ColorGradingLutPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\XROcclusionMeshPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\ColorCurves.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\CapturePass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Passes\Utility\RendererLighting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\PixelPerfectCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\RenderTargetHandle.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DCullResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\LightUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ScriptableRendererFeature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\PostProcessPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DBlendStyle.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\LiftGammaGain.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\RenderingUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\MeshUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DStub.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\Mesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\InvokeOnRenderObjectCallbackPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\MainLightShadowCasterPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\FilmGrain.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\DepthNormalOnlyPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ForwardRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ShaderData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\DrawObjectsPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\UniversalRenderPipeline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Shadows\ShadowCasterGroup2DManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Passes\Render2DLightingPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\AdditionalLightsShadowCasterPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\PriorityHeap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\PixelPerfectCameraInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Data\PostProcessData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\Light2DShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\TransparentSettingsPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\UniversalAdditionalLightData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ShaderUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Overrides\PaniniProjection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\Geom.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\ScreenSpaceShadowResolvePass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\Sweep.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\2D\CinemachineUniversalPixelPerfect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\CopyColorPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\ForwardRendererData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\RendererFeatures\DisallowMultipleRendererFeature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Passes\SceneViewDepthCopy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\MotionVectors.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\PostProcessUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\CustomRP\Shader\NewUnlitShader.shader" />
-    <None Include="Assets\CustomRP\Shader\NewUnlitShader 1.shader" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\Unity.RenderPipelines.Universal.Runtime.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@10.10.1\Runtime\External\LibTessDotNet\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -381,6 +488,38 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Program Files\Unity\2020.3.48f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>D:\Program Files\Unity\2020.3.48f1c1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>D:\Program Files\Unity\2020.3.48f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>D:\Program Files\Unity\2020.3.48f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>Library\PackageCache\com.unity.render-pipelines.core@10.10.1\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -845,46 +984,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Animation.Editor.csproj" />
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj" />
-    <ProjectReference Include="Unity.VSCode.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.PixelPerfect.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
-    <ProjectReference Include="PsdPlugin.csproj" />
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
-    <ProjectReference Include="Unity.Timeline.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.csproj" />
-    <ProjectReference Include="Unity.Searcher.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.IK.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Path.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
-    <ProjectReference Include="UnityEditor.UI.csproj" />
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
-    <ProjectReference Include="Unity.Rider.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj" />
-    <ProjectReference Include="Unity.Mathematics.csproj" />
-    <ProjectReference Include="Unity.2D.IK.Runtime.csproj" />
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Animation.Triangle.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj" />
-    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
-    <ProjectReference Include="Unity.Timeline.Editor.csproj" />
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj" />
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj" />
+    <ProjectReference Include="Unity.Mathematics.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
