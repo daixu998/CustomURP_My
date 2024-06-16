@@ -19,6 +19,13 @@ Shader "Unlit/NewUnlitShader"
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            // #include "../ShaderLibrary/BRDF.hlsl"
+            // #include "../ShaderLibrary/Common.hlsl"
+            // #include "../ShaderLibrary/UnityInput.hlsl"
+            // #include "../ShaderLibrary/UnityFog.hlsl"
+
+
+
 
             struct appdata
             {

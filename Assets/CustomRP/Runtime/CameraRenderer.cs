@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.VersionControl;
+
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEditor;
@@ -20,6 +18,7 @@ partial class CameraRenderer
     const string bufferName = "Render Camera";
     CommandBuffer buffer = new CommandBuffer { name = bufferName };
     static ShaderTagId unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
+    Lighting lighting = new Lighting();
 
     partial void PrepareForSceneWindow();
     partial void PrepareBuffer();
@@ -60,22 +59,24 @@ partial class CameraRenderer
 #else
     const string SampleName = bufferName;
 #endif
-    public void Render(ScriptableRenderContext context, Camera camera)
+    public void Render(ScriptableRenderContext context, Camera camera ,ShadowSetting shadowSetting)
     {
         this.context = context;
         this.camera = camera;
         PrepareBuffer();
         PrepareForSceneWindow();
-        if (!Cull())
+        if (!Cull(shadowSetting.maxDistance))
         {
             return;
         }
         Setup();
+        lighting.Setup(context, cullingResults);
         DrawVisibleGeometry();
 #if UNITY_EDITOR
         DrawUnsupportedShaders();
 #endif
         DrawGizmos();
+        lighting.Cleanup();
         Submit();
 
     }
@@ -136,7 +137,7 @@ partial class CameraRenderer
         //设置清除颜色
         //清除深度和颜色 
         buffer.ClearRenderTarget(
-            flags <= CameraClearFlags.Depth, 
+            flags <= CameraClearFlags.Depth,
             flags == CameraClearFlags.Color,
             flags == CameraClearFlags.Color ? camera.backgroundColor.linear : Color.clear
             );
@@ -176,12 +177,13 @@ partial class CameraRenderer
     /// 剔除参数
     /// </summary>
     CullingResults cullingResults;
-    bool Cull()
+    bool Cull(float maxShadowDistance)
     {
         //剔除  相机矩阵
         ScriptableCullingParameters p;
-        if (camera.TryGetCullingParameters(out p))
+        if (camera.TryGetCullingParameters(out  p))
         {
+            p.shadowDistance = Mathf.Min(maxShadowDistance, camera.farClipPlane);
             cullingResults = context.Cull(ref p);
             return true;
         }
