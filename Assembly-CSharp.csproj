@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\CustomRP\Runtime\Shadows.cs" />
+     <Compile Include="Assets\CustomRP\Runtime\ShadowSetting.cs" />
      <Compile Include="Assets\CustomRP\Runtime\CustomRenderPipeline.cs" />
      <Compile Include="Assets\CustomRP\Runtime\CameraRenderer.cs" />
      <Compile Include="Assets\CustomRP\Runtime\CustomRenderPiineAsset.cs" />
      <Compile Include="Assets\CustomRP\Runtime\Lighting.cs" />
-     <Compile Include="Assets\CustomRP\Runtime\ShadowSetting.cs" />
-     <Compile Include="Assets\CustomRP\Runtime\Shadows.cs" />
      <None Include="Assets\CustomRP\Shader\NewUnlitShader.shader" />
      <None Include="Assets\CustomRP\Shader\NewUnlitShader 1.shader" />
     <Reference Include="UnityEngine">
