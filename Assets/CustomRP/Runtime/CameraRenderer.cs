@@ -69,8 +69,12 @@ partial class CameraRenderer
         {
             return;
         }
+        buffer.BeginSample(SampleName);
+        ExecuteBuffer();
+        lighting.Setup(context, cullingResults , shadowSetting);
+        buffer.EndSample(SampleName);
+
         Setup();
-        lighting.Setup(context, cullingResults);
         DrawVisibleGeometry();
 #if UNITY_EDITOR
         DrawUnsupportedShaders();

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/china_unity/release' branch; Version is '2020.3.23f1c1 (67850fddc0e1) revision 6784271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 22635.3785; Version 2009; 64bit' Language: 'zh' Physical Memory: 65216 MB
+OS: 'Windows 10 Home China; OS build 22635.3930; Version 2009; 64bit' Language: 'zh' Physical Memory: 65216 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/U3dMaster/CustomURP_My
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63509
+50546
 Successfully changed project path to: D:/U3dMaster/CustomURP_My
 D:/U3dMaster/CustomURP_My
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 50.74 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 21.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1c1 (67850fddc0e1)
 [Subsystems] Discovering subsystems at path D:/Program Files/2020.3.23f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2020.3.23f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2020.3.23f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/2020.3.23f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2020.3.23f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008444 seconds.
+Registered in 0.002510 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 18.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.117 seconds
+- Completed reload, in  0.316 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1117ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (317ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (140ms)
+		EndReloadAssembly (223ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (80ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (18ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (39ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014168 seconds.
+Registered in 0.005139 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.919 seconds
+- Completed reload, in  0.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1921ms)
-		BeginReloadAssembly (275ms)
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1507ms)
-			LoadAssemblies (228ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (467ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (639ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (191ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (30ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.0 MB.
 System memory in use after: 68.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1940.
-Total: 4.644900 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.093100 ms MarkObjects: 3.893900 ms  DeleteObjects: 0.277400 ms)
+Total: 2.252800 ms (FindLiveObjects: 0.088400 ms CreateObjectMapping: 0.018000 ms MarkObjects: 2.101800 ms  DeleteObjects: 0.044000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,8 +132,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CustomRP/Runtime/Shadows.cs
-  artifactKey: Guid(e26546a4ecea2af4f84466cc44f3a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CustomRP/Runtime/Shadows.cs using Guid(e26546a4ecea2af4f84466cc44f3a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44ffa7d7b013e6afa5a7c0f1c7c523') in 0.142736 seconds 
-  Import took 0.146569 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003715 seconds 
+  Import took 0.005875 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 32.772739 seconds.
+  path: Assets/CustomRP/Runtime/Lighting.cs
+  artifactKey: Guid(7fdc411fbe59ea546a1d9d90c6033bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Runtime/Lighting.cs using Guid(7fdc411fbe59ea546a1d9d90c6033bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ce006f60060246d82db6776c614537') in 0.054995 seconds 
+  Import took 0.057091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.021993 seconds.
+  path: Assets/CustomRP/Runtime/CustomRenderPipeline.cs
+  artifactKey: Guid(2c9d55dc5b2f20e468b0c447345b5667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Runtime/CustomRenderPipeline.cs using Guid(2c9d55dc5b2f20e468b0c447345b5667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f867c5f5fe78b0bd14d3bcd4cf9c17e5') in 0.002447 seconds 
+  Import took 0.004293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.733458 seconds.
+  path: Assets/CustomRP/Runtime/CustomRenderPiineAsset.cs
+  artifactKey: Guid(a3ccf67d80ccb10408f6a0236e702634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Runtime/CustomRenderPiineAsset.cs using Guid(a3ccf67d80ccb10408f6a0236e702634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4fe691d2ed8e45b9d3ba77e0b1a787') in 0.001943 seconds 
+  Import took 0.003833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.642240 seconds.
+  path: Assets/CustomRP/Runtime/CameraRenderer.cs
+  artifactKey: Guid(597b32ef9d132c441be64b7fc72c3580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Runtime/CameraRenderer.cs using Guid(597b32ef9d132c441be64b7fc72c3580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf05259fe5e25f25e00d64c1ef2154a5') in 0.007064 seconds 
+  Import took 0.009026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.143149 seconds.
+  path: Assets/CustomRP/Runtime/ShadowSetting.cs
+  artifactKey: Guid(fe42407831eb6b342b163a158a0799cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Runtime/ShadowSetting.cs using Guid(fe42407831eb6b342b163a158a0799cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0686b3601e49909682f3cd061d6b8ad') in 0.002060 seconds 
+  Import took 0.003945 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

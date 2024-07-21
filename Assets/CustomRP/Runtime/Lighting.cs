@@ -18,8 +18,8 @@ public class Lighting
     };
     CullingResults cullingResults;
     Shadows shadows = new Shadows();
-    ShadowSetting shadowSetting;
-    public void Setup(ScriptableRenderContext context, CullingResults cullingResults)
+    // ShadowSetting shadowSetting;
+    public void Setup(ScriptableRenderContext context, CullingResults cullingResults , ShadowSetting shadowSetting)
     {
         this.cullingResults = cullingResults;
         buffer.BeginSample(bufferName);

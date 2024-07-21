@@ -21,7 +21,7 @@ public class Shadows
     }
     ShadowedDirectionalLight[] shadowedDirectionalLights = 
         new ShadowedDirectionalLight[maxShadowedDirectionalLightCount];
-    int shadowedDirectionalLightCount;
+    int shadowedDirectionalLightCount =1;
     public void ReserveDirectionalShadows(Light light , int visibleLightIndex)
     {
         if(shadowedDirectionalLightCount < maxShadowedDirectionalLightCount
